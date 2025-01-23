@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color-->
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF9800</color>
+    <!--color name="azul">#303F9F</color>
+    <color name="naranja">#FF9800</color>-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="LabelColor">#373739</color>
+    <color name="TextColor">#A0A0A0</color>
+    <color name="Azulito">#0B0B11</color>
+    <color name="Negrito">#171A24</color>
+    <color name="Blanquito">#292B37</color>
+    <color name="TextColornEGRITO">#575656</color>
+
+</resources>

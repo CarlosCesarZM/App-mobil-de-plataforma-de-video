@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".CuentasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/etiquetas"
+            android:layout_width="152dp"
+            android:layout_height="37dp"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"
+            android:layout_marginTop="40dp"
+            android:onClick="LanzarLoguin"
+            android:text="Regresar al loguin" />
+        <TextView
+            style="@style/LABELSFILMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mis cuentas"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/lista"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    />
+             </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

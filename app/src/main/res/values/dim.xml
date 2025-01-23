@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Lab"> 45dp </dimen>
+    <dimen name="Etiq">15dp</dimen>
+    <dimen name="Bton">15dp</dimen>
+    <dimen name="Labmini"> 30dp </dimen>
+    <dimen name="btnRadio">60dp</dimen>
+    <dimen name="btnRadio2">70dp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FavoritosActivity">
+
+    <TextView
+        android:id="@+id/inicio"
+        style="@style/LABELSTECmini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:textSize="25dp"
+        android:layout_marginTop="32dp"
+        android:onClick="lanzar"
+        android:text="Inicio"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/LABELSTECmini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+       android:layout_gravity="center"
+        android:text="Mis favoritos"
+        android:textSize="30dp"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        style="@style/LABELSTEC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

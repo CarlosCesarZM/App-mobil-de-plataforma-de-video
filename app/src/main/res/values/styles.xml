@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LABELSTEC">
+        <item name="android:textSize"> @dimen/Lab </item>
+        <item name="fontFamily">@font/ppblod</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="LABELSFILMS">
+        <item name="android:textSize"> @dimen/Lab </item>
+        <item name="fontFamily">@font/pplight</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="etiquetas">
+        <item name="fontFamily">@font/ppmedium</item>
+        <item name="android:textSize">@dimen/Etiq</item>
+        <item name="android:textColor">@color/TextColor</item>
+    </style>
+    <style name="campos">
+        <item name="fontFamily">@font/pplight</item>
+        <item name="android:background">@drawable/fondocampos</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:background">@drawable/fondode_secion</item>
+        <item name="fontFamily">@font/ppmedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/Bton</item>
+        <item name="android:width">220dp</item>
+    </style>
+    <style name="LABELSTECmini">
+        <item name="android:textSize"> @dimen/Labmini </item>
+        <item name="fontFamily">@font/ppblod</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="tituloPeliculas">
+        <item name="android:textSize"> @dimen/Labmini </item>
+        <item name="fontFamily">@font/ppblod</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="LABELSFILMSmini">
+        <item name="android:textSize"> @dimen/Labmini </item>
+        <item name="fontFamily">@font/pplight</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="btnesSeries">
+        <item name="android:layout_width">@dimen/btnRadio</item>
+        <item name="android:layout_height">@dimen/btnRadio</item>
+        <item name="android:background">@drawable/fondobtnround</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="nmOpciones">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="fontFamily">@font/pplight</item>
+        <item name="android:textSize">@dimen/Etiq</item>
+    </style>
+    <style name="Negritas">
+        <item name="fontFamily">@font/ppmedium</item>
+        <item name="android:textSize">@dimen/Etiq</item>
+        <item name="android:textColor">@color/TextColornEGRITO</item>
+    </style>
+
+    <style name="btnesSeries2">
+        <item name="android:layout_width">@dimen/btnRadio2</item>
+        <item name="android:layout_height">@dimen/btnRadio2</item>
+        <item name="android:background">@drawable/fondobtnround</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="PeliCULAS">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Cambiar el color del borde del SearchView -->
+        <item name="android:background">@drawable/search_view_border</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+</resources>
